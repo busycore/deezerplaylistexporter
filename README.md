@@ -31,4 +31,4 @@ nodejs index.js 123456789
 👤 **Matheus Vargem**
 
 * Github: [@busycore](https://github.com/busycore)
-* LinkedIn: [@matheusvargem](https://linkedin.com/in/matheusvrgm)
+* LinkedIn: [@matheusvargem](https://linkedin.com/in/matheusvargem)

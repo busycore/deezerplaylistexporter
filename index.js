@@ -25,13 +25,19 @@ async function getSongsInAPlaylist(playlist_url){
     let page = 0
     let lastResult=[]
     const songList = []
+    //console.log(playlist_url + `?index=${page}`)
     do {
         const req = await getData(playlist_url + `?index=${page}`)
         lastResult=req.data;
         const songs = req.data.data;
         const songsObject = songsToObject(songs)
         songList.push(...songsObject)
+        //songList.concat(songsToObject(songs));
+        //console.log(songsObject);
         page+=25;
+        // if(lastResult.next){
+        //     console.log("tem next")
+        // }
     } while(lastResult.next)
     return songList;
 }
@@ -87,6 +93,7 @@ async function main(){
     if(user_id===undefined){
         throw new Error("Please insert the user_id")
     }
+    //1868007806
 
     if(_arguments[1]==='-e'){
         switch (_arguments[2]) {
@@ -101,7 +108,7 @@ async function main(){
                 break;
             case 'pretty':
                 playlists= await getPlaylistsByUser(user_id);
-                console.log("Pretty Print output");
+                console.log("retty Print output");
                 printPlaylist(playlists);
                 break;
             default:

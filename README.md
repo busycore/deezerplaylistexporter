@@ -2,9 +2,6 @@
 
 
 > A simple deezer playlist exporter using public api. Playlists must be public.
-> 
-
-<img src="example.jpg">
 
 ## 🔨 Install
 
@@ -15,8 +12,6 @@ npm
 ```
 
 ## ✔️ Usage
-
-The number is the user id
 
 ```sh
 nodejs index.js 123456789 -e csv playlist.csv

@@ -24,11 +24,11 @@ nodejs index.js 123456789 -e pretty
 nodejs index.js 123456789
 ```
 
-<i>OBS: This project is a simple POC, it's not well formatted neither refactored. Must not work for huge playlists</i>
+<i>OBS: This project is a simple study that resulted in a POC, it's not well formatted neither refactored. Must not work for huge playlists, and should not be used for big projects</i>
 
 ## Author
 
 👤 **Matheus Vargem**
 
 * Github: [@busycore](https://github.com/busycore)
-* LinkedIn: [@matheusvrgm](https://linkedin.com/in/matheusvrgm)
+* LinkedIn: [@matheusvargem](https://linkedin.com/in/matheusvrgm)

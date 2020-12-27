@@ -1,4 +1,8 @@
 {
+  "name": "Deezer Playlist Exporter",
+  "version": "0.0.3",
+  "description": "A simple deezer playlist exporter using public api",
+  "author": "Matheus Vargem",
   "dependencies": {
     "axios": "^0.21.1"
   }

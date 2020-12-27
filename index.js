@@ -78,7 +78,7 @@ function csvExporter(playlists,file_outpath) {
     csv=csvFile+header;
     for (const playlist of playlists) {
         for (const track of playlist.tracks) {
-            const line = `${playlist.title};${track.title};${track.artist};${track.album};${track.duration.toFixed(2gi)}\n`;
+            const line = `${playlist.title};${track.title};${track.artist};${track.album};${track.duration.toFixed(2)}\n`;
             csvFile=csvFile+line;
         }
     }
